@@ -4,7 +4,7 @@ import * as Common from "./common";
 import {type Command} from "./command";
 import {LoggingTaskReporter} from "../util/taskReporter";
 import {DataDirectory} from "../backend/dataDirectory";
-import Loader from "../plugins/discord/loader";
+import Loader from "../plugins/experimental-discord/loader";
 
 function die(std, message) {
   std.err("fatal: " + message);

@@ -4,7 +4,7 @@ import {type NodeAddressT} from "../../core/graph";
 import {githubOwnerPattern} from "../github/repoId";
 import {loginAddress as githubAddress} from "../github/nodes";
 import {userAddress as discourseAddress} from "../discourse/address";
-import {userAddress as discordAddress} from "../discord/createGraph";
+import {userAddress as discordAddress} from "../experimental-discord/createGraph";
 import {
   identityAddress,
   USERNAME_PATTERN as _VALID_IDENTITY_PATTERN,
